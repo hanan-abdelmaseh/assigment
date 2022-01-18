@@ -1,0 +1,14 @@
+<app-model-nav></app-model-nav>
+<div class="m-auto">
+    <input placeholder="  type to search ">
+</div>
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-6 text-center" *ngFor="let product of allproducts ">
+            <div class="product" (click)="details()">
+                <img src={{product.image}}>
+                <p>{{product.title}}</p>
+            </div>
+        </div>
+    </div>
+</div>

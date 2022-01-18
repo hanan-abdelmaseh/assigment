@@ -1,0 +1,12 @@
+.nav {
+    padding: 2px;
+    background-color: #DEDEDE !important;
+}
+
+i {
+    color: #F4F4F4 !important;
+    border: #4E4E4E !important;
+    box-shadow: #00000029 !important;
+    font-size: 25px;
+    cursor: pointer;
+}

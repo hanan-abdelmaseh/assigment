@@ -1,0 +1,16 @@
+.item {
+    justify-content: space-around;
+    border-radius: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px;
+    background-color: #00000029;
+    color: #4E4E4E;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.fa-arrow-right {
+    color: rgb(78, 230, 179) !important;
+}
